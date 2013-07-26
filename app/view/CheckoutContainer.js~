@@ -1,0 +1,14 @@
+Ext.define('Dallas.view.CheckoutContainer',{
+    extend:'Ext.NavigationView',
+    xtype:'checkoutContainer',
+    config:{
+        title:'Checkout',
+        iconCls:'action',
+        items:[
+            {
+                xtype:'checkout1'
+
+            }
+        ]
+    }
+})
